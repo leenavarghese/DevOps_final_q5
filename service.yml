@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: q5-app
+  name: q6-app
 spec:
   type: NodePort
   ports:
@@ -9,4 +9,4 @@ spec:
     nodePort: 30040
     targetPort: 80
   selector:
-    app: q5-app
+    app: q6-app

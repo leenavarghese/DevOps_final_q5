@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: q5-app
+  name: q6-app
   labels: 
-    app: q5-app
+    app: q6-app
 spec:
   replicas: 2
   revisionHistoryLimit: 3
   selector:
     matchLabels:
-      app: q5-app
+      app: q6-app
   template:
     metadata:
       labels:
-        app: q5-app
+        app: q6-app
     spec:
       containers:
         - image: leenavarghese/q1:1.0
-          name: q5-app
+          name: q6-app
         
