@@ -5,7 +5,7 @@ metadata:
   labels: 
     app: q6-app
 spec:
-  replicas: 3
+  replicas: 2
   revisionHistoryLimit: 3
   selector:
     matchLabels:
